@@ -14,7 +14,7 @@
       "js": [
         "jquery-1.9.1.min.js",
         "bootstrap.min.js",
-        "popup.js"
+        "inject.js"
       ],
       "run_at": "document_end"
     }
