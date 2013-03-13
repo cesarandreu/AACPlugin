@@ -1,0 +1,25 @@
+{
+  "name": "Social Network license",
+  "version": "1.0",
+  "permissions": [
+    "http://*/*",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost:3000/*"
+      ],
+      "js": [
+        "jquery-1.9.1.min.js",
+        "bootstrap.min.js",
+        "popup.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "bootstrap.min.css"
+  ],
+  "manifest_version": 2
+}
