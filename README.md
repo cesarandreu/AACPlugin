@@ -6,7 +6,7 @@ A Google Chrome plugin which prevents the page from loading if the user does not
 Uses Bootstrap 2.3.1 along with jQuery 1.9.1. 
 
 
-##### How to use
+#### How to use
 
 1. Clone the repo.
 2. From the terminal, run: cd TestPage/ && npm install && node app.js
