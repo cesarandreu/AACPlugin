@@ -1,4 +1,5 @@
 //Object for handling cookies
+//From MDN: https://developer.mozilla.org/en-US/docs/DOM/document.cookie
 var docCookies = {
   getItem: function (sKey) {
     if (!sKey || !this.hasItem(sKey)) { return null; }
