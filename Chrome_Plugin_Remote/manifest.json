@@ -1,5 +1,5 @@
 {
-  "name": "AACPlugin",
+  "name": "AACPlugin Remote",
   "version": "1.0",
   "description": "A plugin which does not allow a page to load unless the user passes the quiz.",
   "permissions": [

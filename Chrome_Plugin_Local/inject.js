@@ -57,7 +57,7 @@ if(!docCookies.getItem(cookieName)){
   document.head.appendChild(style);
 
   //Appends the modal, hide the page, and activate the modal.
-  $('body').append("<div id='quiz' class='modal fade'> <div class='modal-header'> <h3>Quiz</h3> </div> <div class='modal-body'> <form id='quizForm'><label class='control-label'>Do you pass the quiz?</label><label class='radio inline'><input type='radio' name='question' value='yes'> Yes</label><label class='radio inline'><input type='radio' name='question' value='no'> No</label></form> </div> <div class='modal-footer'> <button id='quizSubmit' class='btn btn-primary'>Submit quiz</button> </div> </div>");
+  $('body').append("<div id='quiz' class='modal fade'> <div class='modal-header'> <h3>Quiz</h3> </div> <div class='modal-body'> <form id='quizForm'><label class='control-label'>Do you pass the quiz?</label><label class='radio inline'><input type='radio' name='question' value='yes'> Yes</label><label class='radio inline'><input type='radio' name='question' value='no'> No</label></form> </div> <div class='modal-footer'> <button id='quizSubmit' class='btn btn-primary'>Submit</button> </div> </div>");
   $('body > :not(#quiz)').hide();
   $('#quiz').modal({backdrop: true, keyboard: false, show: true});
 

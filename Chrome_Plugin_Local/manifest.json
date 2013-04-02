@@ -1,0 +1,26 @@
+{
+  "name": "AACPlugin Local",
+  "version": "1.0",
+  "description": "A plugin which does not allow a page to load unless the user passes the quiz.",
+  "permissions": [
+    "http://*/*",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost:3000/*"
+      ],
+      "js": [
+        "jquery-1.9.1.min.js",
+        "bootstrap.min.js",
+        "inject.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    "bootstrap.min.css"
+  ],
+  "manifest_version": 2
+}
