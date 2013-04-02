@@ -1,0 +1,1 @@
+{"license": "", "description": "Plugin that prevents the use of social networks without first passing a small test", "contributors": [], "author": "cesarcruz", "url": "", "dependencies": ["api-utils", "addon-kit"], "version": "initial.rev129", "lib": "lib", "fullName": "PreserveMyPrivacy", "main": "main", "id": "jid0-PqsFNBzz9g1wEZgvmmgpdkXR0MU", "name": "preservemyprivacy"}
